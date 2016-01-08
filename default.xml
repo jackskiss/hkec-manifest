@@ -1,0 +1,19 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote name="origin"
+            fetch="ssh://git@github.com/OBIGOGIT/" />
+    <default revision="develop" 
+             remote="origin"
+             sync-j="8" />
+    <project name="hkec_dev"
+             path="hkec_dev"
+             remote="origin" />
+
+    <project name="hkec_security"
+             path="hkec_dev/HKEC/security"
+             remote="master" />
+
+    <project name="hkec_oem_apps"
+             path="hkec_dev/apps/mobile"
+             remote="master" />
+</manifest>
