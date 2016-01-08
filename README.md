@@ -1,2 +1,2 @@
-# hkec_manifest
+# hkec-manifest
 HKEC manifest
