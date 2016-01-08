@@ -6,15 +6,19 @@
     <default revision="develop" 
              remote="origin"
              sync-j="8" />
+
     <project name="hkec_dev"
              path="hkec_dev"
+             revision="develop"
              remote="origin" />
 
     <project name="hkec_security"
-             path="hkec_dev/HKEC/security"
-             remote="master" />
+             path="hkec_dev/HKEC/Security"
+             revision="master"
+             remote="origin" />
 
     <project name="hkec_oem_apps"
-             path="hkec_dev/apps/mobile"
-             remote="master" />
+             path="hkec_dev/Apps/mobile"
+             revision="master"
+             remote="origin" />
 </manifest>
